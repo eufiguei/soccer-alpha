@@ -91,7 +91,7 @@
     "model": "models/lgbm_ah.pkl",
     "report": "research/findings.md"
   },
-  "last_heartbeat": "2026-03-28T16:00:06.678818+00:00",
+  "last_heartbeat": "2026-03-28T19:00:05.581127+00:00",
   "findings_ready": true,
   "calibration": {
     "status": "COMPLETE",
