@@ -91,7 +91,7 @@
     "model": "models/lgbm_ah.pkl",
     "report": "research/findings.md"
   },
-  "last_heartbeat": "2026-03-28T15:39:52.220982+00:00",
+  "last_heartbeat": "2026-03-28T16:00:06.678818+00:00",
   "findings_ready": true,
   "calibration": {
     "status": "COMPLETE",
@@ -116,7 +116,7 @@
       "research/calibration_report.md"
     ]
   },
-  "last_updated": "2026-03-28T15:46:52.220400+00:00",
+  "last_updated": "2026-03-28T16:08:47.517420+00:00",
   "calibration_done": true,
   "validated_wr": 56.8,
   "fold_results": {
@@ -134,7 +134,8 @@
     }
   },
   "issues": [
-    "DEGRADATION: 2024-2025 WR=50.5% below threshold"
+    "DEGRADATION: 2024-2025 WR=50.5% below threshold",
+    "PREDICTION PIPELINE BUG: calibration not varying per match"
   ],
   "v2_ready": true,
   "v2_fold_results": {
@@ -160,5 +161,48 @@
   "recommendation": "DEPLOY",
   "calibration_bug_fixed": true,
   "v2_completed_at": "2026-03-28T15:46:52.220450+00:00",
-  "notes": "V2 achieves 55.4% overall WR at t=0.3. 2024-25 fold: 54.5% at t=0.7 (up from 50.5%). DEPLOY with t=0.5+ for selectivity."
+  "notes": "V2 achieves 55.4% overall WR at t=0.3. 2024-25 fold: 54.5% at t=0.7 (up from 50.5%). DEPLOY with t=0.5+ for selectivity.",
+  "consistent_rules_analysis": {
+    "completed_at": "2026-03-28T16:08:47.517384+00:00",
+    "critical_finding": "Dataset excluded 0.5 AH push outcomes, inflating all WRs by ~10pp",
+    "only_real_rule": {
+      "line": -1.75,
+      "side": "away",
+      "true_wr_all_leagues": 0.58,
+      "true_wr_excl_ligue1": 0.612,
+      "n_all": 225,
+      "n_excl_ligue1": 201,
+      "roi_all": 0.184,
+      "p_value": 0.0082,
+      "seasons_above_54pct": "5/6 (excl Ligue1)",
+      "reason": "Home teams at -1.75 line win by exactly 1 goal 25% of time, which still loses the AH bet"
+    },
+    "rejected_rules": [
+      {
+        "rule": "AH +0.25 away",
+        "true_wr": 0.519,
+        "seasons_consistent": "0/6",
+        "verdict": "NOISE"
+      },
+      {
+        "rule": "AH -1.25 home",
+        "true_wr": 0.515,
+        "seasons_consistent": "2/6",
+        "verdict": "NOISE"
+      },
+      {
+        "rule": "AH -0.25 home",
+        "true_wr": 0.491,
+        "seasons_consistent": "0/6",
+        "verdict": "NOISE"
+      },
+      {
+        "rule": "AH -0.75 away",
+        "true_wr": 0.492,
+        "seasons_consistent": "0/6",
+        "verdict": "NOISE"
+      }
+    ],
+    "report": "research/consistent_rules.md"
+  }
 }

@@ -1,0 +1,61 @@
+{
+  "by_movement_bucket": [
+    {
+      "ah_movement_bucket": "strong_fade_home",
+      "n_matches": 171,
+      "home_wr": 0.5205,
+      "avg_movement": -0.0609
+    },
+    {
+      "ah_movement_bucket": "mild_fade_home",
+      "n_matches": 386,
+      "home_wr": 0.4715,
+      "avg_movement": -0.0308
+    },
+    {
+      "ah_movement_bucket": "neutral",
+      "n_matches": 2427,
+      "home_wr": 0.4866,
+      "avg_movement": 0.0063
+    },
+    {
+      "ah_movement_bucket": "mild_steam_home",
+      "n_matches": 4778,
+      "home_wr": 0.4923,
+      "avg_movement": 0.0297
+    },
+    {
+      "ah_movement_bucket": "strong_steam_home",
+      "n_matches": 631,
+      "home_wr": 0.4453,
+      "avg_movement": 0.057
+    }
+  ],
+  "by_line_shift": [
+    {
+      "line_shift_bucket": "big_move_away",
+      "n_matches": 1469,
+      "home_wr": 0.5582
+    },
+    {
+      "line_shift_bucket": "small_move_away",
+      "n_matches": 0,
+      "home_wr": NaN
+    },
+    {
+      "line_shift_bucket": "no_change",
+      "n_matches": 5264,
+      "home_wr": 0.4878
+    },
+    {
+      "line_shift_bucket": "small_move_home",
+      "n_matches": 1590,
+      "home_wr": 0.4258
+    },
+    {
+      "line_shift_bucket": "big_move_home",
+      "n_matches": 85,
+      "home_wr": 0.3176
+    }
+  ]
+}
