@@ -1,0 +1,267 @@
+{
+  "summary": {
+    "total_matches": 9384,
+    "test_matches": 22209,
+    "best_strategy": "model_edge_10pct",
+    "best_roi": 35.6224025974026,
+    "best_win_rate": 0.7100649350649351,
+    "breakeven": 0.5235602094240838,
+    "ah_odds": 1.91
+  },
+  "strategies": [
+    {
+      "strategy": "always_away",
+      "n_bets": 2886,
+      "wins": 1998,
+      "pnl": 930.1799999999998,
+      "win_rate": 0.6923076923076923,
+      "roi": 32.230769230769226
+    },
+    {
+      "strategy": "model_all",
+      "n_bets": 4518,
+      "wins": 3039,
+      "pnl": 1286.4899999999998,
+      "win_rate": 0.6726427622841965,
+      "roi": 28.474767596281538
+    },
+    {
+      "strategy": "model_edge_10pct",
+      "n_bets": 3080,
+      "wins": 2187,
+      "pnl": 1097.17,
+      "win_rate": 0.7100649350649351,
+      "roi": 35.6224025974026
+    },
+    {
+      "strategy": "model_edge_3pct",
+      "n_bets": 4244,
+      "wins": 2870,
+      "pnl": 1237.7,
+      "win_rate": 0.676248821866164,
+      "roi": 29.163524976437323
+    },
+    {
+      "strategy": "model_edge_5pct",
+      "n_bets": 4000,
+      "wins": 2724,
+      "pnl": 1202.84,
+      "win_rate": 0.681,
+      "roi": 30.070999999999998
+    },
+    {
+      "strategy": "model_edge_8pct",
+      "n_bets": 3481,
+      "wins": 2423,
+      "pnl": 1146.93,
+      "win_rate": 0.6960643493249067,
+      "roi": 32.94829072105717
+    }
+  ],
+  "by_league": [
+    {
+      "league": "Bundesliga",
+      "wins": 326,
+      "n_bets": 481,
+      "pnl": 141.65999999999997,
+      "win_rate": 0.6777546777546778,
+      "roi": 29.451143451143448
+    },
+    {
+      "league": "EPL",
+      "wins": 466,
+      "n_bets": 653,
+      "pnl": 237.05999999999997,
+      "win_rate": 0.7136294027565084,
+      "roi": 36.3032159264931
+    },
+    {
+      "league": "LaLiga",
+      "wins": 472,
+      "n_bets": 660,
+      "pnl": 241.51999999999995,
+      "win_rate": 0.7151515151515152,
+      "roi": 36.59393939393939
+    },
+    {
+      "league": "Ligue1",
+      "wins": 405,
+      "n_bets": 586,
+      "pnl": 187.54999999999995,
+      "win_rate": 0.6911262798634812,
+      "roi": 32.005119453924905
+    },
+    {
+      "league": "SerieA",
+      "wins": 518,
+      "n_bets": 700,
+      "pnl": 289.37999999999994,
+      "win_rate": 0.74,
+      "roi": 41.339999999999996
+    }
+  ],
+  "by_split": [
+    {
+      "split": "2022-23",
+      "strategy": "model_all",
+      "n_bets": 1578,
+      "wins": 1051,
+      "win_rate": 0.6660329531051965,
+      "roi": 27.212294043092523,
+      "pnl": 429.40999999999997
+    },
+    {
+      "split": "2022-23",
+      "strategy": "model_edge_3pct",
+      "n_bets": 1500,
+      "wins": 1007,
+      "win_rate": 0.6713333333333333,
+      "roi": 28.224666666666664,
+      "pnl": 423.36999999999995
+    },
+    {
+      "split": "2022-23",
+      "strategy": "model_edge_5pct",
+      "n_bets": 1424,
+      "wins": 974,
+      "win_rate": 0.6839887640449438,
+      "roi": 30.64185393258427,
+      "pnl": 436.34
+    },
+    {
+      "split": "2022-23",
+      "strategy": "model_edge_8pct",
+      "n_bets": 1244,
+      "wins": 862,
+      "win_rate": 0.6929260450160771,
+      "roi": 32.348874598070736,
+      "pnl": 402.41999999999996
+    },
+    {
+      "split": "2022-23",
+      "strategy": "model_edge_10pct",
+      "n_bets": 1098,
+      "wins": 782,
+      "win_rate": 0.7122040072859745,
+      "roi": 36.03096539162113,
+      "pnl": 395.62
+    },
+    {
+      "split": "2022-23",
+      "strategy": "always_away",
+      "n_bets": 1004,
+      "wins": 674,
+      "win_rate": 0.6713147410358565,
+      "roi": 28.2211155378486,
+      "pnl": 283.34
+    },
+    {
+      "split": "2023-24",
+      "strategy": "model_all",
+      "n_bets": 1467,
+      "wins": 977,
+      "win_rate": 0.6659850034083163,
+      "roi": 27.203135650988408,
+      "pnl": 399.06999999999994
+    },
+    {
+      "split": "2023-24",
+      "strategy": "model_edge_3pct",
+      "n_bets": 1360,
+      "wins": 907,
+      "win_rate": 0.6669117647058823,
+      "roi": 27.38014705882353,
+      "pnl": 372.37
+    },
+    {
+      "split": "2023-24",
+      "strategy": "model_edge_5pct",
+      "n_bets": 1276,
+      "wins": 850,
+      "win_rate": 0.6661442006269592,
+      "roi": 27.233542319749215,
+      "pnl": 347.5
+    },
+    {
+      "split": "2023-24",
+      "strategy": "model_edge_8pct",
+      "n_bets": 1099,
+      "wins": 757,
+      "win_rate": 0.6888080072793449,
+      "roi": 31.562329390354872,
+      "pnl": 346.87
+    },
+    {
+      "split": "2023-24",
+      "strategy": "model_edge_10pct",
+      "n_bets": 970,
+      "wins": 678,
+      "win_rate": 0.6989690721649484,
+      "roi": 33.50309278350515,
+      "pnl": 324.98
+    },
+    {
+      "split": "2023-24",
+      "strategy": "always_away",
+      "n_bets": 931,
+      "wins": 640,
+      "win_rate": 0.6874328678839957,
+      "roi": 31.299677765843175,
+      "pnl": 291.4
+    },
+    {
+      "split": "2024-25",
+      "strategy": "model_all",
+      "n_bets": 1473,
+      "wins": 1011,
+      "win_rate": 0.6863543788187373,
+      "roi": 31.093686354378814,
+      "pnl": 458.00999999999993
+    },
+    {
+      "split": "2024-25",
+      "strategy": "model_edge_3pct",
+      "n_bets": 1384,
+      "wins": 956,
+      "win_rate": 0.6907514450867052,
+      "roi": 31.933526011560698,
+      "pnl": 441.96000000000004
+    },
+    {
+      "split": "2024-25",
+      "strategy": "model_edge_5pct",
+      "n_bets": 1300,
+      "wins": 900,
+      "win_rate": 0.6923076923076923,
+      "roi": 32.230769230769226,
+      "pnl": 419.0
+    },
+    {
+      "split": "2024-25",
+      "strategy": "model_edge_8pct",
+      "n_bets": 1138,
+      "wins": 804,
+      "win_rate": 0.7065026362038664,
+      "roi": 34.94200351493849,
+      "pnl": 397.64000000000004
+    },
+    {
+      "split": "2024-25",
+      "strategy": "model_edge_10pct",
+      "n_bets": 1012,
+      "wins": 727,
+      "win_rate": 0.7183794466403162,
+      "roi": 37.2104743083004,
+      "pnl": 376.57000000000005
+    },
+    {
+      "split": "2024-25",
+      "strategy": "always_away",
+      "n_bets": 951,
+      "wins": 684,
+      "win_rate": 0.7192429022082019,
+      "roi": 37.37539432176655,
+      "pnl": 355.43999999999994
+    }
+  ]
+}

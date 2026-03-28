@@ -1,0 +1,178 @@
+[
+  {
+    "match": "Arsenal vs Chelsea",
+    "league": "EPL",
+    "date": "Demo",
+    "predicted_margin": 0.98,
+    "calibrated_margin": 0.602,
+    "prediction": "Home advantage: +0.60 goals",
+    "ah_line": -0.75,
+    "ah_edge": 1.352,
+    "bet_recommendation": "BET HOME (Arsenal -0.75)",
+    "confidence": "HIGH",
+    "home_form": {
+      "gf_6": 1.67,
+      "ga_6": 1.17,
+      "sot_6": 4.33
+    },
+    "away_form": {
+      "gf_6": 0.83,
+      "ga_6": 1.83,
+      "sot_6": 4.0
+    }
+  },
+  {
+    "match": "Real Madrid vs Barcelona",
+    "league": "La Liga",
+    "date": "Demo",
+    "predicted_margin": 1.476,
+    "calibrated_margin": 1.33,
+    "prediction": "Home advantage: +1.33 goals",
+    "ah_line": -0.5,
+    "ah_edge": 1.83,
+    "bet_recommendation": "BET HOME (Real Madrid -0.50)",
+    "confidence": "HIGH",
+    "home_form": {
+      "gf_6": 2.17,
+      "ga_6": 1.33,
+      "sot_6": 8.5
+    },
+    "away_form": {
+      "gf_6": 2.5,
+      "ga_6": 0.83,
+      "sot_6": 5.17
+    }
+  },
+  {
+    "match": "Bayern Munich vs Dortmund",
+    "league": "Bundesliga",
+    "date": "Demo",
+    "predicted_margin": 1.952,
+    "calibrated_margin": 1.33,
+    "prediction": "Home advantage: +1.33 goals",
+    "ah_line": -1.0,
+    "ah_edge": 2.33,
+    "bet_recommendation": "BET HOME (Bayern Munich -1.00)",
+    "confidence": "HIGH",
+    "home_form": {
+      "gf_6": 3.0,
+      "ga_6": 1.67,
+      "sot_6": 9.17
+    },
+    "away_form": {
+      "gf_6": 2.0,
+      "ga_6": 1.5,
+      "sot_6": 4.83
+    }
+  },
+  {
+    "match": "Man United vs Everton",
+    "league": "EPL",
+    "date": "Demo",
+    "predicted_margin": 0.668,
+    "calibrated_margin": 0.602,
+    "prediction": "Home advantage: +0.60 goals",
+    "ah_line": -0.75,
+    "ah_edge": 1.352,
+    "bet_recommendation": "BET HOME (Man United -0.75)",
+    "confidence": "HIGH",
+    "home_form": {
+      "gf_6": 0.67,
+      "ga_6": 1.5,
+      "sot_6": 4.33
+    },
+    "away_form": {
+      "gf_6": 1.5,
+      "ga_6": 0.5,
+      "sot_6": 4.83
+    }
+  },
+  {
+    "match": "Napoli vs Juventus",
+    "league": "Serie A",
+    "date": "Demo",
+    "predicted_margin": 0.642,
+    "calibrated_margin": 0.602,
+    "prediction": "Home advantage: +0.60 goals",
+    "ah_line": -0.5,
+    "ah_edge": 1.102,
+    "bet_recommendation": "BET HOME (Napoli -0.50)",
+    "confidence": "HIGH",
+    "home_form": {
+      "gf_6": 2.0,
+      "ga_6": 0.83,
+      "sot_6": 4.83
+    },
+    "away_form": {
+      "gf_6": 0.83,
+      "ga_6": 1.33,
+      "sot_6": 4.17
+    }
+  },
+  {
+    "match": "Inter vs Roma",
+    "league": "Serie A",
+    "date": "Demo",
+    "predicted_margin": 0.689,
+    "calibrated_margin": 0.602,
+    "prediction": "Home advantage: +0.60 goals",
+    "ah_line": -0.5,
+    "ah_edge": 1.102,
+    "bet_recommendation": "BET HOME (Inter -0.50)",
+    "confidence": "HIGH",
+    "home_form": {
+      "gf_6": 1.67,
+      "ga_6": 1.0,
+      "sot_6": 4.17
+    },
+    "away_form": {
+      "gf_6": 1.33,
+      "ga_6": 0.5,
+      "sot_6": 6.17
+    }
+  },
+  {
+    "match": "Liverpool vs Manchester City",
+    "league": "EPL",
+    "date": "Demo",
+    "predicted_margin": 0.73,
+    "calibrated_margin": 0.602,
+    "prediction": "Home advantage: +0.60 goals",
+    "ah_line": -0.75,
+    "ah_edge": 1.352,
+    "bet_recommendation": "BET HOME (Liverpool -0.75)",
+    "confidence": "HIGH",
+    "home_form": {
+      "gf_6": 2.5,
+      "ga_6": 1.0,
+      "sot_6": 5.33
+    },
+    "away_form": {
+      "gf_6": 1.3,
+      "ga_6": 1.4,
+      "sot_6": 3.0
+    }
+  },
+  {
+    "match": "Atl\u00e9tico Madrid vs Sevilla",
+    "league": "La Liga",
+    "date": "Demo",
+    "predicted_margin": 0.198,
+    "calibrated_margin": 0.405,
+    "prediction": "Home advantage: +0.41 goals",
+    "ah_line": -0.5,
+    "ah_edge": 0.905,
+    "bet_recommendation": "BET HOME (Atl\u00e9tico Madrid -0.50)",
+    "confidence": "HIGH",
+    "home_form": {
+      "gf_6": 1.5,
+      "ga_6": 1.2,
+      "sot_6": 3.5
+    },
+    "away_form": {
+      "gf_6": 1.0,
+      "ga_6": 1.83,
+      "sot_6": 5.0
+    }
+  }
+]

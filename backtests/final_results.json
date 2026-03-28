@@ -1,0 +1,91 @@
+{
+  "methodology": {
+    "train_period": "2019-08-01 to 2023-07-31",
+    "test_period": "2023-08-01 to 2025-05-25",
+    "train_matches": 5665,
+    "test_matches": 2743,
+    "total_strategies_tested": 6,
+    "bonferroni_alpha": 0.008333333333333333
+  },
+  "validated_strategies": [
+    {
+      "line": -1.75,
+      "side": "away",
+      "train_n": 113,
+      "train_wr": 0.672566371681416,
+      "train_roi": 31.725663716814157,
+      "test_n": 58,
+      "test_wr": 0.7068965517241379,
+      "test_roi": 37.36206896551724,
+      "combined_n": 171,
+      "combined_wr": 0.6842105263157895,
+      "combined_p": 1.452003717483663e-06
+    },
+    {
+      "line": -1.25,
+      "side": "home",
+      "train_n": 258,
+      "train_wr": 0.6201550387596899,
+      "train_roi": 26.515503875968992,
+      "test_n": 147,
+      "test_wr": 0.6122448979591837,
+      "test_roi": 19.29251700680272,
+      "combined_n": 405,
+      "combined_wr": 0.6172839506172839,
+      "combined_p": 2.3516389477951094e-06
+    },
+    {
+      "line": -0.75,
+      "side": "away",
+      "train_n": 457,
+      "train_wr": 0.5842450765864332,
+      "train_roi": 14.81181619256017,
+      "test_n": 253,
+      "test_wr": 0.5968379446640316,
+      "test_roi": 16.833992094861657,
+      "combined_n": 710,
+      "combined_wr": 0.5887323943661972,
+      "combined_p": 2.2596671422903114e-06
+    },
+    {
+      "line": -0.25,
+      "side": "home",
+      "train_n": 831,
+      "train_wr": 0.5932611311672684,
+      "train_roi": 21.56438026474128,
+      "test_n": 396,
+      "test_wr": 0.5833333333333334,
+      "test_roi": 14.36111111111111,
+      "combined_n": 1227,
+      "combined_wr": 0.5900570497147515,
+      "combined_p": 2.805946586192931e-10
+    },
+    {
+      "line": 0.25,
+      "side": "away",
+      "train_n": 569,
+      "train_wr": 0.6309314586994728,
+      "train_roi": 24.29349736379613,
+      "test_n": 263,
+      "test_wr": 0.6387832699619772,
+      "test_roi": 25.722433460076044,
+      "combined_n": 832,
+      "combined_wr": 0.6334134615384616,
+      "combined_p": 1.3988810110276972e-14
+    },
+    {
+      "line": 0.75,
+      "side": "home",
+      "train_n": 263,
+      "train_wr": 0.5703422053231939,
+      "train_roi": 15.855513307984792,
+      "test_n": 142,
+      "test_wr": 0.5492957746478874,
+      "test_roi": 7.260563380281688,
+      "combined_n": 405,
+      "combined_wr": 0.562962962962963,
+      "combined_p": 0.011270104849283147
+    }
+  ],
+  "recommendation": "DEPLOY"
+}

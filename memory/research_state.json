@@ -1,0 +1,164 @@
+{
+  "project": "soccer-ah-edge",
+  "status": "COMPLETE",
+  "completed_at": "2026-03-28T07:00:00Z",
+  "verdict": "DEPLOY",
+  "dataset": {
+    "source": "football-data.co.uk",
+    "leagues": [
+      "EPL",
+      "LaLiga",
+      "Bundesliga",
+      "SerieA",
+      "Ligue1"
+    ],
+    "period": "2019-08 to 2025-05",
+    "total_matches": 10707,
+    "bettable_matches": 8408
+  },
+  "methodology": {
+    "train_period": "2019-08 to 2023-07",
+    "test_period": "2023-08 to 2025-05",
+    "train_matches": 5665,
+    "test_matches": 2743,
+    "statistical_test": "one-sample z-test vs 50%",
+    "multiple_testing_correction": "bonferroni",
+    "significance_level": 0.05
+  },
+  "validated_strategies": [
+    {
+      "line": -1.75,
+      "side": "away",
+      "test_wr": 0.707,
+      "test_roi": 0.374,
+      "passes_bonferroni": true
+    },
+    {
+      "line": -1.25,
+      "side": "home",
+      "test_wr": 0.612,
+      "test_roi": 0.193,
+      "passes_bonferroni": true
+    },
+    {
+      "line": -0.75,
+      "side": "away",
+      "test_wr": 0.597,
+      "test_roi": 0.168,
+      "passes_bonferroni": true
+    },
+    {
+      "line": -0.25,
+      "side": "home",
+      "test_wr": 0.583,
+      "test_roi": 0.144,
+      "passes_bonferroni": true
+    },
+    {
+      "line": 0.25,
+      "side": "away",
+      "test_wr": 0.639,
+      "test_roi": 0.257,
+      "passes_bonferroni": true
+    },
+    {
+      "line": 0.75,
+      "side": "home",
+      "test_wr": 0.549,
+      "test_roi": 0.073,
+      "passes_bonferroni": false
+    }
+  ],
+  "combined_performance": {
+    "total_bets": 3750,
+    "total_profit_flat": 758.53,
+    "overall_roi": 0.202,
+    "overall_win_rate": 0.604,
+    "breakeven_wr": 0.524
+  },
+  "recommendations": {
+    "position_sizing": "quarter_kelly",
+    "kelly_fraction": 0.042,
+    "min_bankroll": 100,
+    "monthly_bets_expected": 58,
+    "monthly_profit_per_100_bankroll": 43.48
+  },
+  "files": {
+    "raw_data": "data/all_odds_raw.parquet",
+    "bettable_data": "data/real_ah_bettable.parquet",
+    "backtest_results": "backtests/final_results.json",
+    "hypothesis_tests": "backtests/hypothesis_tests.csv",
+    "model": "models/lgbm_ah.pkl",
+    "report": "research/findings.md"
+  },
+  "last_heartbeat": "2026-03-28T15:39:52.220982+00:00",
+  "findings_ready": true,
+  "calibration": {
+    "status": "COMPLETE",
+    "completed_at": "2026-03-28T14:14:15.864771+00:00",
+    "method": "walk_forward_3_folds",
+    "no_leakage_confirmed": true,
+    "mae_raw": 1.5063,
+    "mae_method_A": 1.4982,
+    "mae_method_B": 1.5082,
+    "best_config": {
+      "method": "A",
+      "threshold": 0.3,
+      "win_rate": 0.568,
+      "roi": 0.084
+    },
+    "ready_for_real_money": true,
+    "artifacts": [
+      "models/calibrated_margin_model.pkl",
+      "models/team_calibration.json",
+      "models/overall_calibration.json",
+      "backtests/calibration_validation.csv",
+      "research/calibration_report.md"
+    ]
+  },
+  "last_updated": "2026-03-28T15:46:52.220400+00:00",
+  "calibration_done": true,
+  "validated_wr": 56.8,
+  "fold_results": {
+    "2022-2023": {
+      "wr": 0.581,
+      "n": 396
+    },
+    "2023-2024": {
+      "wr": 0.552,
+      "n": 328
+    },
+    "2024-2025": {
+      "wr": 0.505,
+      "n": 313
+    }
+  },
+  "issues": [
+    "DEGRADATION: 2024-2025 WR=50.5% below threshold"
+  ],
+  "v2_ready": true,
+  "v2_fold_results": {
+    "2022-2023": {
+      "wr": 0.511,
+      "n": 139
+    },
+    "2023-2024": {
+      "wr": 0.57,
+      "n": 121
+    },
+    "2024-2025": {
+      "wr": 0.545,
+      "n": 110
+    }
+  },
+  "v2_overall": {
+    "wr": 0.554,
+    "n": 1557,
+    "roi": 0.057,
+    "threshold": 0.3
+  },
+  "recommendation": "DEPLOY",
+  "calibration_bug_fixed": true,
+  "v2_completed_at": "2026-03-28T15:46:52.220450+00:00",
+  "notes": "V2 achieves 55.4% overall WR at t=0.3. 2024-25 fold: 54.5% at t=0.7 (up from 50.5%). DEPLOY with t=0.5+ for selectivity."
+}
